@@ -85,7 +85,7 @@ const RegisterModal = () => {
 					<div>
 						Already have an account?
 					</div>
-					<div className="text-neutral-800 cursor-pointer hover:underline">
+					<div className="text-neutral-800 cursor-pointer hover:underline" onClick={registerModal.onClose}>
 						Log in
 					</div>
 				</div>
