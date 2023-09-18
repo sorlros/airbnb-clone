@@ -15,7 +15,7 @@ const CategoryBox: React.FC<CategoryBoxProps> = ({ icon: Icon, label, selected }
 	const router = useRouter();
 	const params = useSearchParams();
 
-	console.log(params?.toString());
+	// console.log(params?.toString());
 
 	const handleClick = useCallback(() => {
 		let currentQuery = {};
