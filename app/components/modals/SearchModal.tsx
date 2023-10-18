@@ -1,6 +1,6 @@
 "use client";
 
-import Modal from "./Modal.tsx";
+import Modal from "./Modal";
 import useSearchModal from "@/app/hooks/useSearchModal";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState, useMemo, useCallback } from "react";
