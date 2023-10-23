@@ -1,5 +1,7 @@
 {
-	"editor.codeLens": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.hover.enabled": false
+  "editor.codeLens": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.hover.enabled": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
